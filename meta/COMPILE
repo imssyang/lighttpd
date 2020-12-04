@@ -1,0 +1,11 @@
+
+./configure --prefix=/opt/lighttpd \
+  --with-openssl=/opt/openssl \
+  --with-openssl-includes=/opt/openssl/include \
+  --with-openssl-libs=/opt/openssl/lib \
+  --with-libev=/opt/libev \
+  --with-mysql=/opt/mysql/bin/mysql_config \
+  --with-lua=/opt/lua \
+  --with-dbi=/opt/libdbi \
+  CFLAGS=-I/opt/lua/include \
+  LDFLAGS=-L/opt/lua/lib
