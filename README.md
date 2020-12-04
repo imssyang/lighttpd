@@ -1,0 +1,2 @@
+# lighttpd
+/opt/lighttpd
